@@ -14,9 +14,7 @@ I created four functions to increase and decrease the image's height and width i
 
 **Output Screenshot**
 
-<!-- Add your V1 screenshot link here -->
-
-![V1 - Basic Image Size Changer](V1-Basic Image Size Changer\SS_v1.png)
+![V1 - Basic Image Size Changer](<V1-Basic Image Size Changer/SS_v1.png>)
 
 ### V2 — Image Upload
 
@@ -26,9 +24,7 @@ The uploaded image starts at 100 × 100 pixels. Users can then increase or decre
 
 **Output Screenshot**
 
-<!-- Add your V2 screenshot link here -->
-
-![V2 - Image Upload](V2 -Image Upload\SS2_v2.png)
+![V2 - Image Upload](<V2 -Image Upload/SS2_v2.png>)
 
 ### V3 — Original Dimensions + Maintain Ratio
 
@@ -38,9 +34,8 @@ I added two more buttons to increase or decrease both dimensions proportionally 
 
 **Output Screenshot**
 
-<!-- Add your V3 screenshot link here -->
 
-![V3 - Original Dimensions and Maintain Ratio](V3-Original Dimensions + Maintain Ratio\SS2_V3.png)
+![V3 - Original Dimensions and Maintain Ratio](<V3-Original Dimensions + Maintain Ratio/SS2_V3.png>)
 
 ## 💭 My Approach
 
