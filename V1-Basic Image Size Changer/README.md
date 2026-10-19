@@ -6,9 +6,8 @@ In this version, I used an image stored in the project folder and added buttons 
 
 ## 📸 Screenshot
 
-<!-- Add your screenshot link here -->
 
-![Image Size Changer V1](V1-Basic Image Size Changer\SS_v1.png)
+![Image Size Changer V1](SS_v1.png)
 
 ## ✨ Features
 
