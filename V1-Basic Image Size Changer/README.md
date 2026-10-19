@@ -5,7 +5,7 @@ I made this project while learning React. I wanted to understand how the `useSta
 In this version, I used an image stored in the project folder and added buttons to change its height and width independently.
 
 ## 📸 Screenshot
-![V1 - Basic Image Size Changer](screenshots/SS_v1.png)
+![V1 - Basic Image Size Changer](<V1-Basic Image Size Changer/SS_v1.png>)
 
 ## Features
 
