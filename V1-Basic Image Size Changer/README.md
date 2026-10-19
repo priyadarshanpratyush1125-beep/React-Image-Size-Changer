@@ -1,16 +1,64 @@
-# React + Vite
+# Image Size Changer — V1
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+I made this project while learning React. I wanted to understand how the `useState` Hook works and how React updates the UI when a value changes.
 
-Currently, two official plugins are available:
+In this version, I used an image stored in the project folder and added buttons to change its height and width independently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📸 Screenshot
 
-## React Compiler
+![Image Size Changer V1](V1-Basic Image Size Changer/SS_v1.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Displays an image stored in the project folder
+- Sets the initial image size to 100 × 100 pixels
+- Increases or decreases height by 10px
+- Increases or decreases width by 10px
+- Prevents the dimensions from going below 10px
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 💭My Approach
+
+My idea was to make a simple application where I could change an image's size by clicking buttons. I didn't want to depend on the image's original dimensions, so I decided to start with a fixed height and width of 100px.
+
+To implement this, I used React's `useState` Hook to store the height and width. I then created four functions to increase or decrease each dimension by 10px. Finally, I connected these functions to the buttons using `onClick`.
+
+## ⚙️ How It Works
+
+1. The image is imported from the project's `assets` folder.
+2. The `height` and `width` state variables are initialized to `100`.
+3. When a button is clicked, its corresponding function updates the relevant state using the setter function.
+4. React re-renders the component with the updated state.
+5. The image's inline CSS uses the new height and width values, so the displayed image resizes automatically.
+
+## 🛠️ Technologies Used
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## 📚 What I Learned
+
+- Using the `useState` Hook to store and update values
+- Creating functions to handle button clicks
+- Using `onClick` to connect buttons with functions
+- Applying dynamic inline CSS using state values
+- Understanding how React re-renders the UI when state changes
+
+## ▶️ How to Run
+
+Open the project folder in your terminal and run:
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 💡 Next Step
+
+In V2, I plan to add an image upload feature so users can select an image from their computer instead of using a fixed image.
+
+I'm building this project step by step to improve my understanding of React through practical learning.
